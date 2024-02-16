@@ -43,7 +43,7 @@ function HomeDogs() {
                         ) : (
                             data &&
                             data.message.map((dogImage, index) => (
-                                <div key={index} className="square-image">
+                                <div key={index} className="square-image m-auto">
                                     <img src={dogImage} alt="Dog" />
                                 </div>
                             ))
